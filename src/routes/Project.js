@@ -1,13 +1,15 @@
 import React from "react";
-import ecommerce from "./resource/ecommerce.png";
-import movieapp from "./resource/movieapp.png";
-import signup from "./resource/signup.png";
-import matchgame from "./resource/matchgame.png";
-import sidebar from "./resource/sidebar.png";
-import jokes from "./resource/jokes.png";
+import ecommerce from "../Components/resource/ecommerce.png";
+import movieapp from "../Components/resource/movieapp.png";
+import signup from "../Components/resource/signup.png";
+import matchgame from "../Components/resource/matchgame.png";
+import sidebar from "../Components/resource/sidebar.png";
+import jokes from "../Components/resource/jokes.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 
 
@@ -15,6 +17,8 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 function Project() {
   
     return(
+      <> 
+      <Header />
       <div className="flex h-auto  w-4/5 mx-auto ">
         <div className="grid grid-cols-3 gap-4">
 
@@ -132,7 +136,7 @@ function Project() {
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://jokes-singh-nitish26.netlify.app/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/jokes', '_blank'); }} className="m-2 text-3xl"/>
-                </div>
+                </div>./Components
               </div>
 
             </div>
@@ -140,6 +144,8 @@ function Project() {
         </div>
 
       </div>
+      <Footer />
+      </>
     );
 }
 

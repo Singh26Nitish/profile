@@ -1,15 +1,18 @@
 import React from "react";
-import about from "./resource/intro.jpg";
-import Socials from "./Socials";
-import Blogs from "./Blogs";
+import Aabout from "../Components/resource/intro.jpg";
+import Socials from "../Components/Socials";
+import Blogs from "../Components/Blogs";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 
 function About() {
     return(
         <>
+        <Header />
         <section className="flex h-screen">
             <div className="flex w-4/5 mx-auto">
-                <img alt="about" src={about} className="w-1/5  my-auto mx-5 rounded-lg"/>
+                <img alt="about" src={Aabout} className="w-1/5  my-auto mx-5 rounded-lg"/>
                 <div className="my-auto mx-5 px-4 text-xl">
                     <p>From an early age, I wanted to work with technology, I had an interest in science-building school projects 
                         at my university I took computer science and my coding journey began. I learned many languages like c, c++,
@@ -29,6 +32,7 @@ function About() {
         <section>
             <Blogs />
         </section>
+        <Footer />
         </>
     );
 }
