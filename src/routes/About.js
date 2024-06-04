@@ -10,10 +10,10 @@ function About() {
     return(
         <>
         <Header />
-        <section className="flex h-screen">
-            <div className="flex w-4/5 mx-auto">
-                <img alt="about" src={Aabout} className="w-1/5  my-auto mx-5 rounded-lg"/>
-                <div className="my-auto mx-5 px-4 text-xl">
+        <section className="flex">
+            <div className="md:flex w-4/5 mx-auto">
+                <img alt="about" src={Aabout} className="w-4/5 md:w-2/5  my-auto mx-auto rounded-lg"/>
+                <div className="my-auto mx-auto px-4 text-xl">
                     <p>From an early age, I wanted to work with technology, I had an interest in science-building school projects 
                         at my university I took computer science and my coding journey began. I learned many languages like c, c++,
                          python, and Java but in all that web development amazed me the most so I started learning web development

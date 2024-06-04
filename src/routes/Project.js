@@ -20,7 +20,7 @@ function Project() {
       <> 
       <Header />
       <div className="flex h-auto  w-4/5 mx-auto ">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 md:gap-4">
 
           {/* project card */}
           <div class="w-full md:px-4 py-6" >
@@ -136,7 +136,7 @@ function Project() {
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://jokes-singh-nitish26.netlify.app/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/jokes', '_blank'); }} className="m-2 text-3xl"/>
-                </div>./Components
+                </div>
               </div>
 
             </div>
