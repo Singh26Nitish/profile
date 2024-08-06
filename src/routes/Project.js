@@ -30,9 +30,9 @@ function Project() {
 
               <div class="p-6">
                 <h3 class="text-xl font-semibold mb-3">E-commerce</h3>
-                <p class="text-gray-600">It's a e-commerce website.</p>
-                <p class="text-gray-600">Tech stack used Html, css and Js.</p>
-                <p class="text-gray-600">This is fully responsive.</p>
+                <p class="text-gray-300">It's a e-commerce website.</p>
+                <p class="text-gray-300">Tech stack used Html, css and Js.</p>
+                <p class="text-gray-300">This is fully responsive.</p>
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://shoes-eccommerce-site.netlify.app/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/ecommerce-sample', '_blank'); }} className="m-2 text-3xl"/>
@@ -50,9 +50,9 @@ function Project() {
 
               <div class="p-6">
                 <h3 class="text-2xl font-semibold mb-3">Movie App</h3>
-                <p class="text-gray-600">This is movie information app.</p>
-                <p class="text-gray-600">It use API request to deliver content.</p>
-                <p class="text-gray-600">It shows plot, imdb rating, etc.</p>
+                <p class="text-gray-300">This is movie information app.</p>
+                <p class="text-gray-300">It use API request to deliver content.</p>
+                <p class="text-gray-300">It shows plot, imdb rating, etc.</p>
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://singh26nitish.github.io/Movie-Info-Web-App/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/Movie-Info-Web-App', '_blank'); }} className="m-2 text-3xl"/>
@@ -70,9 +70,9 @@ function Project() {
 
               <div class="p-6">
                 <h3 class="text-2xl font-semibold mb-3">Sign up page</h3>
-                <p class="text-gray-600">It's basic Sign-up page.</p>
-                <p class="text-gray-600">It's just made to display skills</p>
-                <p class="text-gray-600">Tech stack html css</p>
+                <p class="text-gray-300">It's basic Sign-up page.</p>
+                <p class="text-gray-300">It's just made to display skills</p>
+                <p class="text-gray-300">Tech stack html css</p>
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://singh26nitish.github.io/Signup-page/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/Signup-page', '_blank'); }} className="m-2 text-3xl"/>
@@ -90,9 +90,9 @@ function Project() {
 
               <div class="p-6">
                 <h3 class="text-2xl font-semibold mb-3">Memory Game</h3>
-                <p class="text-gray-600">It's a simple memory the card game.</p>
-                <p class="text-gray-600">Here you have to find matching card.</p>
-                <p class="text-gray-600">It use javascript array, random methods.</p>
+                <p class="text-gray-300">It's a simple memory the card game.</p>
+                <p class="text-gray-300">Here you have to find matching card.</p>
+                <p class="text-gray-300">It use javascript array, random methods.</p>
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://singh26nitish.github.io/Memory-Game/','_blank');}} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/Memory-Game', '_blank'); }} className="m-2 text-3xl"/>
@@ -110,9 +110,9 @@ function Project() {
 
               <div class="p-6">
                 <h3 class="text-2xl font-semibold mb-3">Side-bar</h3>
-                <p class="text-gray-600">It's sidebar design.</p>
-                <p class="text-gray-600">It's fully responsive.</p>
-                <p class="text-gray-600">You can change theme as well.</p>
+                <p class="text-gray-300">It's sidebar design.</p>
+                <p class="text-gray-300">It's fully responsive.</p>
+                <p class="text-gray-300">You can change theme as well.</p>
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://singh26nitish.github.io/sidebar-menu/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/sidebar-menu', '_blank'); }} className="m-2 text-3xl"/>
@@ -130,9 +130,9 @@ function Project() {
 
               <div class="p-6">
                 <h3 class="text-2xl font-semibold mb-3">Jokes</h3>
-                <p class="text-gray-600">It's just some simple jokes.</p>
-                <p class="text-gray-600">It's a static react page.</p>
-                <p class="text-gray-600">All these are written using props.</p>
+                <p class="text-gray-300">It's just some simple jokes.</p>
+                <p class="text-gray-300">It's a static react page.</p>
+                <p class="text-gray-300">All these are written using props.</p>
                 <div className="flex-start">
                   <FontAwesomeIcon icon={faGlobe} onClick={() => { window.open('https://jokes-singh-nitish26.netlify.app/', '_blank'); }} className="m-2 text-3xl"/>
                   <FontAwesomeIcon icon={faGithub} onClick={() => { window.open('https://github.com/Singh26Nitish/jokes', '_blank'); }} className="m-2 text-3xl"/>
