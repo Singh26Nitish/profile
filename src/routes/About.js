@@ -1,38 +1,55 @@
 import React from "react";
-import Aabout from "../Components/resource/intro.jpg";
-import Socials from "../Components/Socials";
-import Blogs from "../Components/Blogs";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-
 
 function About() {
-    return(
+    return (
         <>
-        <Header />
-        <section className="flex h-screen">
-            <div className="md:flex w-4/5 mx-auto my-auto">
-                <img alt="about" src={Aabout} className="w-3/5 my-auto mx-auto rounded-lg md:w-1/5 md:mt-28"/>
-                <div className="my-auto mx-auto px-4 text-xl">
-                    <p>From an early age, I wanted to work with technology, I had an interest in science-building school projects 
-                        at my university I took computer science and my coding journey began. I learned many languages like c, c++,
-                         python, and Java but in all that web development amazed me the most so I started learning web development
-                          side by side with my graduation especially since I liked the frontend part like how we can build different
-                           designs and share it with others easily. Early I had a subject based on web development so from there I 
-                           learned the basics of HTML and CSS then started learning javascript to build some projects currently I m 
-                           looking for a job in the frontend field and learning React framework, for new developers learning web 
-                           development I like to say hang in there with time it all start make sense, thanks for reading this far.
-                    </p>
+            <section className="mb-4 ">
+                <h1 className="text-5xl font-bold relative inline-block mb-5 font-poppins text-font">
+                    About me
+                    <span className="absolute left-0 -bottom-2 w-12 h-1 bg-high"></span>
+                </h1>
+                <p className="text-lg mb-4 text-font-dark">
+                    My passion for technology began early, guiding me to pursue a degree in Computer Science. I explored languages like C, C++, Python, and Java, but web development, particularly the frontend, captivated me the most.
+                </p>
+                <p className="text-lg text-font-dark">
+                    Now, I'm focused on mastering frontend technologies, especially React.js, to build engaging and dynamic web experiences.
+                </p>
+            </section>
+
+            <section className="mt-6">
+                <h1 className="text-4xl font-bold relative inline-block mb-5 font-poppins">What Am I Doing?</h1>
+                <div className="flex flex-wrap justify-around">
+                    {/* First Card */}
+                    <div className="rounded-lg p-6 w-2/5 shadow-lg bg-content">
+                        <div className="flex items-center">
+                            <div>
+                                <h2 className="text-xl font-semibold">Frontend Developer</h2>
+                                <p>I create modern and advanced websites and applications with React, a JavaScript framework.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Second Card */}
+                    <div className="rounded-lg p-6 w-2/5 shadow-lg bg-content">
+                        <div className="flex items-center">
+                            <div>
+                                <h2 className="text-xl font-semibold">Position</h2>
+                                <p>Currently working as a software developer Intern at a startup, working with Angular.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Third Card */}
+                    <div className="rounded-lg p-6 w-2/5 shadow-lg mt-4 mx-auto bg-content">
+                        <div className="flex items-center">
+                            <div>
+                                <h2 className="text-xl font-semibold">Side stuff</h2>
+                                <p>Trying to learn Linux for fun.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <Socials />
-        </section>
-        <section>
-            <Blogs />
-        </section>
-        <Footer />
+            </section>
         </>
     );
 }

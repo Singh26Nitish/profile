@@ -6,12 +6,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark': '#001a2c',
-        'light': '#edf6f9',
-        'navcol': '#00111c'
+        'dark': '#1B1B1B',
+        'light': '#2C2C2C',
+        'high': '#F39C12',
+        'font-dark': '#A6A6A6',
+        'font': '#E0E0E0',
+        'content': '#1F1F1F',
       },
       fontFamily: {
-        'comom': ['Neuton']
+        'poppins': ['Poppins'],
+        'lato': ['Lato']
       }
     }
   },

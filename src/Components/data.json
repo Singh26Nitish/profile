@@ -1,0 +1,31 @@
+[
+    {
+      "title": "E-Mail",
+      "username": "nkushwaha791@gmail.com",
+      "logo1": "fa-regular",
+      "logo2": "fa-envelope",
+      "link": "mailto:nkushwaha791@gmail.com"
+    },
+    {
+    "title": "GITHUB",
+    "username": "Singh26Nitish",
+    "logo1": "fa-brands",
+    "logo2": "fa-github",
+    "link": "https://github.com/Singh26Nitish"
+    },
+    {
+    "title": "LINKEDIN",
+    "username": "singh-nitish26",
+    "logo1": "fa-brands",
+    "logo2": "fa-linkedin",
+    "link": "https://www.linkedin.com/in/singh-nitish26/"
+    },
+    {
+    "title": "LOCATION",
+    "username": "Faridabad, India",
+    "logo1": "fa-solid",
+    "logo2": "fa-location-dot",
+    "link": "https://www.google.com/maps/place/Faridabad,+Haryana/@28.4021415,77.3190742,12z/data=!3m1!4b1!4m6!3m5!1s0x390cdc15f5a424b1:0xe4f50576c850e0f2!8m2!3d28.4089123!4d77.3177894!16zL20vMDRmMTB0?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
+    }
+]
+  
