@@ -1,4 +1,7 @@
-[
+{
+
+  "socials": [
+  
     {
       "title": "E-Mail",
       "username": "nkushwaha791@gmail.com",
@@ -27,5 +30,97 @@
     "logo2": "fa-location-dot",
     "link": "https://www.google.com/maps/place/Faridabad,+Haryana/@28.4021415,77.3190742,12z/data=!3m1!4b1!4m6!3m5!1s0x390cdc15f5a424b1:0xe4f50576c850e0f2!8m2!3d28.4089123!4d77.3177894!16zL20vMDRmMTB0?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
     }
-]
+  ],
+
+  "education": [
+    
+    {
+      "title": "Computer Science and Engineering",
+      "date": "2019 — 2023",
+      "description": "I completed my undergraduate education in the Computer Science Engineering from  CRS State Institute of Engineering and Technology, Jhajjar"
+    }
+  ],
+
+  "experience": [
+    
+    {
+      "title": " Software Developer Intern",
+      "date": " June 2024- Sept 2024",
+      "org": "Ivtree IT Solutions Pvt. ltd.",
+      "description1": "Contributed to developing multiple web application modules, improving overall functionality.",
+      "description2": "Revamped and updated the front-end design of existing projects to meet modern standards.",
+      "description3": "Icollaborated with the team to resolve project issues and implement feature updates efficiently."
+    }
+  ],
+
+  "projects":[
+    {
+      "title": "E-commerce",
+      "imageUrl": "./resource/ecommerce.png",
+      "bulletPoints": [
+        "It's a e-commerce website.", 
+        "Tech stack used Html, css and Js.", 
+        "This is fully responsive."
+      ],
+      "gitLink": "https://github.com/Singh26Nitish/ecommerce-sample",
+      "deploymentLink": "https://shoes-eccommerce-site.netlify.app/"
+    },
+    {
+      "title": "Movie App",
+      "imageUrl": "./resource/movieapp.png",
+      "bulletPoints": [
+        "This is movie information app.",
+        "It use API request to deliver content.",
+        "It shows plot, imdb rating, etc."
+      ],
+      "gitLink": "https://github.com/Singh26Nitish/Movie-Info-Web-App",
+      "deploymentLink": "https://singh26nitish.github.io/Movie-Info-Web-App/"
+    },
+    {
+      "title": "Sign up page",
+      "imageUrl": "./resource/signup.png",
+      "bulletPoints": [
+        "It's basic Sign-up page.",
+        "It's just made to display skills.",
+        "Tech stack html css"
+      ],
+      "gitLink": "https://github.com/Singh26Nitish/Signup-page",
+      "deploymentLink": "https://singh26nitish.github.io/Signup-page/"
+    },
+    {
+      "title": "Memory Game",
+      "imageUrl": "./resource/matchgame.png",
+      "bulletPoints": [
+        "It's a e-commerce website.", 
+        "Tech stack used Html, css and Js.", 
+        "This is fully responsive."
+      ],
+      "gitLink": "https://github.com/Singh26Nitish/Memory-Game",
+      "deploymentLink": "https://singh26nitish.github.io/Memory-Game/"
+    },
+    {
+      "title": "Side-bar",
+      "imageUrl": "./resource/sidebar.png",
+      "bulletPoints": [
+        "It's a simple memory the card game.",
+        "Here you have to find matching card.",
+        "It use javascript array, random methods."
+      ],
+      "gitLink": "https://github.com/Singh26Nitish/sidebar-menu",
+      "deploymentLink": "https://singh26nitish.github.io/sidebar-menu/"
+    },
+    {
+      "title": "Jokes",
+      "imageUrl": "./resource/jokes.png",
+      "bulletPoints": [
+        "It's sidebar design.",
+        "It's fully responsive.",
+        "You can change theme as well."
+      ],
+      "gitLink": "https://github.com/Singh26Nitish/jokes",
+      "deploymentLink": "https://jokes-singh-nitish26.netlify.app/"
+    }
+  ]
+  
+  }
   

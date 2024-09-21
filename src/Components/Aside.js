@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Aside(){
     return(
-        <aside className="w-1/5 mr-6 text-font bg-light rounded-3xl thin-border">
+        <aside className="w-1/5 mr-6 text-font bg-light rounded-3xl thin-border h-full overflow-hidden">
             {/* About me */}
             <div className="flex flex-col items-center">
                 <div >
@@ -24,7 +24,7 @@ function Aside(){
             {/* My handles */}
 
             <div className="mt-10 flex flex-col ml-3">
-            {data.map((card, index) => (
+            {data.socials.map((card, index) => (
                 <div key={index} className="flex flex-row mb-4">
                     <div className="rounded-lg thin-border border-white p-3 px-4 mr-2 text-high">
                         <i className={`${card.logo1} ${card.logo2}`}></i>

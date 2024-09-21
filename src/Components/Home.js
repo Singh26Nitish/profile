@@ -8,17 +8,19 @@ import Blog from "../routes/Blog";
 
 function Home() {
     return (
-        <section className="w-4/5 bg-light text-font rounded-3xl thin-border">
+        <section className="w-4/5 bg-light text-font rounded-3xl thin-border flex flex-col justify-between overflow-auto overscroll-none">
             <Navbar />
-            <div className="content p-8 pt-6">
-                <Routes>
-                    {/* Redirect the root path to /about */}
-                    <Route path="/" element={<Navigate to="/about" replace />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/resume" element={<Resume />} />
-                    <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/blog" element={<Blog />} />
-                </Routes>
+            <div className="flex-1 p-8 pt-6">
+                <div className="flex-1 p-8 pt-6">
+                    <Routes>
+                        {/* Redirect the root path to /about */}
+                        <Route path="/" element={<Navigate to="/about" replace />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/portfolio" element={<Portfolio />} />
+                        <Route path="/blog" element={<Blog />} />
+                    </Routes>
+                </div>
             </div>
         </section>
     );

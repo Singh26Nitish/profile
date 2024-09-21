@@ -3,7 +3,7 @@ import React from "react";
 function Blog(){
     return(
         <> 
-        <h1>Let's see some blogs</h1>
+        <h1>Developer is Lazy to write these!</h1>
         </>
     )
 }
