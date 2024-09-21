@@ -1,24 +1,12 @@
-import Home from './routes/Home';
-import Project from './routes/Project';
-import About from './routes/About';
-import { Route, Routes } from 'react-router-dom';
+import Base from "./Components/Base";
 
 function App() {
   return (
-    <div className="App bg-dark text-light font-comom">
-      <Routes>
-        <Route path="/" element={< Home />} />
-        <Route path="/project" element={< Project />} />
-        <Route path="/about" element={< About />} />
-      </Routes>
+    <div className="bg-dark h-screen font-lato overflow-hidden">
+      <div className="h-full overflow-y-auto">
+        <Base />
       </div>
-    // <div className="App bg-dark text-light font-comom">
-    //   <Header />
-    //   <Home id='home'/>
-    //   <Project id='project'/>
-    //   <About id='about'/>
-    //   <Footer />
-    // </div>
+    </div>
   );
 }
 
