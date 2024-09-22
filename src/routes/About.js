@@ -4,7 +4,7 @@ function About() {
     return (
         <>
             <section className="mb-4">
-                <h1 className="text-5xl font-bold relative inline-block mb-5 font-poppins text-font">
+                <h1 className="text-4xl font-bold relative inline-block mb-5 font-poppins text-font">
                     About me
                     <span className="absolute left-0 -bottom-2 w-12 h-1 bg-high"></span>
                 </h1>
@@ -17,10 +17,10 @@ function About() {
             </section>
 
             <section className="mt-6">
-                <h1 className="text-4xl font-bold relative inline-block mb-5 font-poppins">What Am I Doing?</h1>
-                <div className="flex flex-wrap justify-around">
+                <h1 className="text-3xl font-bold relative inline-block mb-5 font-poppins">What Am I Doing?</h1>
+                <div className="flex-col flex-wrap justify-around">
                     {/* First Card */}
-                    <div className="rounded-lg p-6 w-2/5 shadow-lg bg-content">
+                    <div className="rounded-lg p-6 w-4/5 shadow-lg bg-content my-2">
                         <div className="flex items-center">
                             <div>
                                 <h2 className="text-xl font-semibold">Frontend Developer</h2>
@@ -30,7 +30,7 @@ function About() {
                     </div>
 
                     {/* Second Card */}
-                    <div className="rounded-lg p-6 w-2/5 shadow-lg bg-content">
+                    <div className="rounded-lg p-6 w-4/5 shadow-lg bg-content my-2">
                         <div className="flex items-center">
                             <div>
                                 <h2 className="text-xl font-semibold">Position</h2>
@@ -40,7 +40,7 @@ function About() {
                     </div>
 
                     {/* Third Card */}
-                    <div className="rounded-lg p-6 w-2/5 shadow-lg mt-4 mx-auto bg-content">
+                    <div className="rounded-lg p-6 w-4/5 shadow-lg bg-content my-2">
                         <div className="flex items-center">
                             <div>
                                 <h2 className="text-xl font-semibold">Side stuff</h2>

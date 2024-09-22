@@ -4,7 +4,7 @@ import Home from "./Home";
 
 function Base() {
   return (
-    <div className="px-24 pt-16 flex">
+    <div className="flex-col">
       <Aside />
       <Home />
     </div>
@@ -12,3 +12,5 @@ function Base() {
 }
 
 export default Base;
+
+// px-24 pt-16 flex 

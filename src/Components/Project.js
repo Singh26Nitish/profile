@@ -29,10 +29,10 @@ const ProjectModal = ({ project, onClose }) => {
   return (
     <div
       id="modal-overlay"
-      className="fixed inset-0 bg-light bg-opacity-50 flex items-center justify-center "
+      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center "
       onClick={handleOutsideClick}
     >
-      <div className="bg-light p-6 rounded-lg w-1/3 relative">
+      <div className="bg-light p-6 rounded-lg relative">
         <img
           src={require(`${project.imageUrl}`)}
           alt={project.title}

@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div className="relative w-full font-poppins">
-      <div className="bg-light flex text-font justify-around w-2/3 p-3 absolute right-0 rounded-3xl thin-border no-border text-xl">
+      <div className="bg-light flex text-font justify-around p-3 mx-2 rounded-3xl text-xl thin-border">
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "font-bold text-high" : "font-bold text-font"
+            isActive ? "font-bold text-high" : "font-bold text-font" 
           }
         >
           About me
