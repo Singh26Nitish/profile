@@ -8,7 +8,7 @@ import Blog from "../routes/Blog";
 
 function Home() {
     return (
-        <section className="w-4/5 bg-light text-font rounded-3xl thin-border flex flex-col justify-between overflow-auto overscroll-none">
+        <section className="bg-light m-2 text-font rounded-3xl thin-border flex flex-col justify-between overflow-auto overscroll-none">
             <Navbar />
             <div className="flex-1 p-8 pt-6">
                 <div className="flex-1 p-8 pt-6">
