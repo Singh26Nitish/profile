@@ -3,7 +3,7 @@ import data from './data.json';
 
   const TimelineItem = ({ title, date, description, description1, description2, description3 }) => (
     <div className="relative mb-8">
-      <div className="ml-8">
+      <div className="ml-4">
         <div className="text-font p-4 rounded-lg shadow-lg">
           <h3 className="text-lg font-semibold">{title}</h3>
           <span className="block text-sm text-yellow-400 mb-2">{date}</span>
@@ -17,7 +17,7 @@ import data from './data.json';
   );
   
   const TimelineEdu = () => (
-    <div className="relative border-l-2 border-gray-600 ml-6 pl-8">
+    <div className="relative border-l-2 border-gray-600 ml-2 pl-2">
       {data.education.map((item, index) => (
         <TimelineItem 
           key={index} 
@@ -30,7 +30,7 @@ import data from './data.json';
   );
 
   const TimelineExp = () => (
-    <div className="relative border-l-2 border-gray-600 ml-6 pl-8">
+    <div className="relative border-l-2 border-gray-600 ml-2 pl-2">
       {data.experience.map((item, index) => (
         <TimelineItem 
           key={index} 
@@ -46,7 +46,7 @@ import data from './data.json';
   
   export default function EducationTimeline() {
     return (
-      <div className="text-font ml-4">
+      <div className="text-font ml-2">
         <h1 className="text-3xl font-bold mb-6">Education</h1>
         <TimelineEdu />
         <h1 className="text-3xl font-bold mb-6">Experience</h1>
