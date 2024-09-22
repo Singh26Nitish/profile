@@ -10,15 +10,15 @@ function Home() {
     return (
         <section className="bg-light m-2 text-font rounded-3xl thin-border flex flex-col justify-between overflow-auto overscroll-none">
             <Navbar />
-            <div className="flex-1 p-8 pt-6">
-                <div className="flex-1 p-8 pt-6">
+            <div className="flex-1 p-2 pt-2">
+                <div className="flex-1 p-2 pt-2">
                     <Routes>
                         {/* Redirect the root path to /about */}
-                        <Route path="/" element={<Navigate to="/about" replace />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/resume" element={<Resume />} />
-                        <Route path="/portfolio" element={<Portfolio />} />
-                        <Route path="/blog" element={<Blog />} />
+                        <Route className="mx-1" path="/" element={<Navigate to="/about" replace />} />
+                        <Route className="mx-1" path="/about" element={<About />} />
+                        <Route className="mx-1" path="/resume" element={<Resume />} />
+                        <Route className="mx-1" path="/portfolio" element={<Portfolio />} />
+                        <Route className="mx-1" path="/blog" element={<Blog />} />
                     </Routes>
                 </div>
             </div>
