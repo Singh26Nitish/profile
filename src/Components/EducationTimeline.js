@@ -7,10 +7,10 @@ import data from './data.json';
         <div className="text-font p-4 rounded-lg shadow-lg">
           <h3 className="text-lg font-semibold">{title}</h3>
           <span className="block text-sm text-yellow-400 mb-2">{date}</span>
-          <p className="text-gray-300">{description}</p>
-          <p className="text-gray-300">{description1}</p>
-          <p className="text-gray-300">{description2}</p>
-          <p className="text-gray-300">{description3}</p>
+          <p className="text-gray-300 mb-1">{description}</p>
+          <p className="text-gray-300 mb-1">{description1}</p>
+          <p className="text-gray-300 mb-1">{description2}</p>
+          <p className="text-gray-300 mb-1">{description3}</p>
         </div>
       </div>
     </div>
