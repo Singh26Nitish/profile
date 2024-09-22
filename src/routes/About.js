@@ -20,7 +20,7 @@ function About() {
                 <h1 className="text-3xl font-bold relative inline-block mb-5 font-poppins">What Am I Doing?</h1>
                 <div className="flex-col flex-wrap justify-around">
                     {/* First Card */}
-                    <div className="rounded-lg p-6 shadow-lg bg-content my-2">
+                    <div className="rounded-lg p-4 shadow-lg bg-content my-2 sm:w-2/3">
                         <div className="flex items-center">
                             <div>
                                 <h2 className="text-xl font-semibold">Frontend Developer</h2>
@@ -30,7 +30,7 @@ function About() {
                     </div>
 
                     {/* Second Card */}
-                    <div className="rounded-lg p-6 shadow-lg bg-content my-2">
+                    <div className="rounded-lg p-4 shadow-lg bg-content my-2 sm:w-2/3">
                         <div className="flex items-center">
                             <div>
                                 <h2 className="text-xl font-semibold">Position</h2>
@@ -40,7 +40,7 @@ function About() {
                     </div>
 
                     {/* Third Card */}
-                    <div className="rounded-lg p-6  shadow-lg bg-content my-2">
+                    <div className="rounded-lg p-4  shadow-lg bg-content my-2 sm:w-2/3">
                         <div className="flex items-center">
                             <div>
                                 <h2 className="text-xl font-semibold">Side stuff</h2>

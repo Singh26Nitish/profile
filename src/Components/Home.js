@@ -8,10 +8,11 @@ import Blog from "../routes/Blog";
 
 function Home() {
     return (
-        <section className="bg-light m-2 text-font rounded-3xl thin-border flex flex-col justify-between overflow-auto overscroll-none">
+        <section className="bg-light m-2 text-font rounded-3xl thin-border flex flex-col justify-between overflow-auto 
+        overscroll-none sm:w-4/5">
             <Navbar />
             <div className="flex-1 p-2 pt-2">
-                <div className="flex-1 p-2 pt-2">
+                <div className="flex-1 p-2 pt-2 sm:p-6">
                     <Routes>
                         {/* Redirect the root path to /about */}
                         <Route className="mx-1" path="/" element={<Navigate to="/about" replace />} />

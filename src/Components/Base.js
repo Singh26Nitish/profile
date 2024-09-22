@@ -4,7 +4,7 @@ import Home from "./Home";
 
 function Base() {
   return (
-    <div className="flex-col">
+    <div className="sm:flex sm:p-6 sm:my-auto sm:h-screen">
       <Aside />
       <Home />
     </div>
