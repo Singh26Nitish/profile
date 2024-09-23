@@ -12,7 +12,7 @@ function Resume(){
             </div>
 
             <div>
-                <div className="text-white">
+                <div className="text-white sm:p-4">
                 <EducationTimeline />
                 </div>
             </div>
