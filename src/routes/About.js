@@ -4,20 +4,20 @@ function About() {
     return (
         <>
             <section className="mb-4">
-                <h1 className="text-4xl font-bold relative inline-block mb-5 font-poppins text-font">
+                <h1 className="text-4xl sm:text-3xl font-bold relative inline-block mb-5 font-poppins text-font">
                     About me
                     <span className="absolute left-0 -bottom-2 w-12 h-1 bg-high"></span>
                 </h1>
-                <p className="text-lg mb-4 text-font-dark">
+                <p className="text-lg sm:text-sm mb-4 text-font-dark">
                     My passion for technology began early, guiding me to pursue a degree in Computer Science. I explored languages like C, C++, Python, and Java, but web development, particularly the frontend, captivated me the most.
                 </p>
-                <p className="text-lg text-font-dark">
+                <p className="text-lg sm:text-sm text-font-dark">
                     Now, I'm focused on mastering frontend technologies, especially React.js, to build engaging and dynamic web experiences.
                 </p>
             </section>
 
             <section className="mt-6">
-                <h1 className="text-3xl font-bold relative inline-block mb-5 font-poppins">What Am I Doing?</h1>
+                <h1 className="text-3xl sm:text-2xl font-bold relative inline-block mb-5 font-poppins">What Am I Doing?</h1>
                 <div className="flex-col flex-wrap justify-around">
                     {/* First Card */}
                     <div className="rounded-lg p-4 shadow-lg bg-content my-2 sm:w-2/3">

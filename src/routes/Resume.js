@@ -5,7 +5,7 @@ function Resume(){
     return(
         <section className="">
             <div>
-            <h1 className="text-4xl font-bold relative inline-block mb-6 font-poppins text-font">
+            <h1 className="text-4xl sm:text-3xl font-bold relative inline-block mb-6 font-poppins text-font">
                         Resume
                         <span className="absolute left-0 -bottom-2 w-12 h-1 bg-high"></span>
                     </h1>
