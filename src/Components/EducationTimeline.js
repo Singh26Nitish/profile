@@ -47,9 +47,9 @@ import data from './data.json';
   export default function EducationTimeline() {
     return (
       <div className="text-font ml-2">
-        <h1 className="text-3xl font-bold mb-6">Education</h1>
+        <h1 className="text-3xl sm:text-2xl font-bold mb-6">Education</h1>
         <TimelineEdu />
-        <h1 className="text-3xl font-bold mb-6">Experience</h1>
+        <h1 className="text-3xl sm:text-2xl font-bold mb-6">Experience</h1>
         <TimelineExp />
       </div>
     );
