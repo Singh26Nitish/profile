@@ -17,7 +17,7 @@ function Aside() {
             {/* About me section */}
             <div className="flex justify-start items-center px-4 sm:flex-col sm:mt-4">
                 <div className="mr-6">
-                    <img src={profile} alt="pfp" className="max-w-xs max-h-28 mt-4 rounded-3xl" />
+                    <img src={profile} alt="pfp" className="max-w-xs max-h-28 sm:max-h-40 mt-4 rounded-3xl" />
                 </div>
 
                 <div className="flex justify-between w-fu">

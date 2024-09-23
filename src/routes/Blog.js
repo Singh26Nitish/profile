@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 
-function Blog(){
+
+  function Blog() {
     return(
-        <> 
-        <h1>Developer is Lazy to write these!</h1>
-        </>
+      <>
+      <section className="">
+            <h1 className="text-5xl font-bold relative inline-block mb-5 font-poppins text-font">
+              Blogs
+                        <span className="absolute left-0 -bottom-2 w-12 h-1 bg-high"></span>
+                    </h1>
+      </section>
+      <div>Dev is lazy to do it rn</div>
+
+      </>
     )
-}
+  }
 
 export default Blog;
