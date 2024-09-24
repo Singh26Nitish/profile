@@ -9,10 +9,10 @@ function About() {
                     <span className="absolute left-0 -bottom-2 w-12 h-1 bg-high"></span>
                 </h1>
                 <p className="text-lg sm:text-sm mb-4 text-font-dark">
-                    My passion for technology began early, guiding me to pursue a degree in Computer Science. I explored languages like C, C++, Python, and Java, but web development, particularly the frontend, captivated me the most.
+                    I’m Nitish, a frontend developer with a passion for creating clean, responsive, and dynamic web experiences. With a background in Computer Science, I’ve explored different programming languages, but web development, especially React.js, is where I thrive.
                 </p>
                 <p className="text-lg sm:text-sm text-font-dark">
-                    Now, I'm focused on mastering frontend technologies, especially React.js, to build engaging and dynamic web experiences.
+                    I build fast, user-friendly websites and apps that not only look great but also work seamlessly. If you're looking for someone who can turn your ideas into engaging digital experiences, let’s make it happen!
                 </p>
             </section>
 
